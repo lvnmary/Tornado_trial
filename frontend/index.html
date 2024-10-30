@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Зарегистрировать обращение</title>
+</head>
+<body>
+    <h1>Форма обращения</h1>
+    <form action="http://localhost:5000/submit" method="POST">
+        <label>Фамилия: <input type="text" name="last_name" required></label><br>
+        <label>Имя: <input type="text" name="first_name" required></label><br>
+        <label>Отчество: <input type="text" name="middle_name" required></label><br>
+        <label>Телефон: <input type="tel" name="phone" required></label><br>
+        <label>Текст обращения: <textarea name="message" required></textarea></label><br>
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>
